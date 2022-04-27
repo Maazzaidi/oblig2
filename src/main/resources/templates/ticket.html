@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="container my-5" style="max-width: 500px !important;">
-    <h1>Bestilling av kinobilletter</h1>
+    <h1>Bestilling av billetter</h1>
     <div class="row">
         <div class="col-md-12">
             <form action="#" th:action="@{/addticket}" th:object="${ticket}" method="post">
@@ -22,9 +22,9 @@
                         <label class="col-form-label">Film</label>
                         <select name="movieName" id="film" class="form-control" required>
                             <option value="velgfilmher">Velg film her</option>
-                            <option value="Superman">Superman</option>
-                            <option value="Batman">Batman</option>
-                            <option value="King Kong">King Kong</option>
+                            <option value="Goldfinger">Goldfinger</option>
+                            <option value="Thunderbolt">Thunderbolt</option>
+                            <option value="From Tokyo with love">From Tokyo with love</option>
                         </select>
                     </div>
 
